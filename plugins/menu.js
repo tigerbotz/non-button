@@ -21,33 +21,33 @@ let menu = {
   for (let i = 0; i < commands.length; i++) { if (commands[i].pattern && !commands[i].dontAddCommandList) { menu[commands[i].category] += `.${commands[i].pattern}\n`; } }
 
  let madeMenu = `💖 *Hello ${pushname}*
- > *DOWNLOAD COMMANDS📡*
+  *DOWNLOAD COMMANDS📡*
  
  ${menu.download}
 
- > *MAIN COMMANDS🔰*
+  *MAIN COMMANDS🔰*
 
  ${menu.main}
 
- > *GROUP COMMANDS✴️*
+  *GROUP COMMANDS✴️*
 
  ${menu.group}
 
- > *OWNER COMMANDS💰*
+  *OWNER COMMANDS💰*
 
  ${menu.owner}
 
- > *CONVERT COMMANDS🚄*
+  *CONVERT COMMANDS🚄*
 
  ${menu.convert}
 
- > *Search Commands🔎*
+  *Search Commands🔎*
 
  ${menu.search}
 
- POWERD BY Thenula_Panapiti🔰
+ > POWERD BY WHITE TIGER MIND INC🔰
  `
-await conn.sendMessage(from,{image:{url:"https://telegra.ph/file/a7ccc1537d4760ce7a0cc.jpg"},{quoted:mek})
+await conn.sendMessage(from,{image:{url:"https://telegra.ph/file/2d4d67f5088957f82b558.jpg"},{quoted:mek})
 
   }catch(e){
 console.log(e)
