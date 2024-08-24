@@ -1,15 +1,15 @@
 {
-  "name": "Thenu-MD",
+  "name": "TIGER-STATUS-MD",
   "version": "1.0.0",
-  "description": "A Thenu-MD WhatsApp bot created using Node.js",
+  "description": "A TIGER-STATUS-MD WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Thenu-MD",
-    "stop": "pm2 stop Thenu-MD",
-    "restart": "pm2 restart Thenu-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name TIGER-STATUS-MD",
+    "stop": "pm2 stop TIGER-STATUS-MD",
+    "restart": "pm2 restart TIGER-STATUS-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "6.6.0",
+    "@whiskeysockets/baileys": "6.7.7",
     "@adiwajshing/keyed-db": "^0.2.4",
     "pino": "^7.0.5",
     "pm2": "^5.2.0",
