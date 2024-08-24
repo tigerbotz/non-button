@@ -15,7 +15,7 @@ try{
 let status = `> ♻️Uptime: ${runtime(process.uptime())} 
 > ♻️Ram usage: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 > 🔔HostName:* ${os.hostname()} 
-> 🎬Owner:*Thenula Panapiti* ` 
+> 🎬Owner:*WHITE TIGER MIND INC 🥷* ` 
   return reply(`${status}`)
   
 }catch(e){
