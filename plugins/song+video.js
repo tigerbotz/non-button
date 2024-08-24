@@ -16,17 +16,17 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-  *♻️ 🎶Thenu-MD Song Downloader🎵 ♻️*
+  *🥷 🎶TIGER SOND DL 🎵 🥷*
   
-  - Title: ${data.title}
-  - Description: ${data.description}
-  - Time: ${data.timestamp}
-  - Ago: ${data.ago}
-  - Views: ${data.views}
+ 🥷 Title: ${data.title}
+ 🥷 Description: ${data.description}
+ 🥷 Time: ${data.timestamp}
+ 🥷 Ago: ${data.ago}
+ 🥷 Views: ${data.views}
     
  *🎵Your song downloading...*
  
-> © Made by Thenula Panapiti.
+> © MADE BY WHITE TIGER MIND INC 🥷
   `
  await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek})
  
@@ -65,7 +65,7 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-  *♻️ 📽️Thenu-MD VIDEO Downloader📽️ ♻️*
+  *🥷 📽️TIGER VIDEO DL📽️ 🥷*
   
   - Title: ${data.title}
   - Description: ${data.description}
@@ -75,7 +75,7 @@ let desc = `
     
  *🎬 Your video downloading....*
  
-> © Made by Thenula Panapiti.
+> © MADE BY WHITE TIGER MIND INC 🥷
   `
  await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek})
  
@@ -86,8 +86,8 @@ let desc = `
     
  //send video+ document message 
 
- await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4",caption:">Thenula Panapiti💕"},{quoted:mek})
- await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"> Thenula Panapiti💕"},{quoted:mek})
+ await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4",caption:"> WHITE TIGER MIND INC 🥷"},{quoted:mek})
+ await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"> WHITE TIGER MIND INC 🥷"},{quoted:mek})
 
  
 
