@@ -71,7 +71,7 @@ console.log('TIGER-STATUS-MD Bot connected to whatsapp ✅')
 
 let up = `TIGER-STATUS-MD-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/e1805cc111530fe514728.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/2d4d67f5088957f82b558.jpg` }, caption: up })
 
 }
 })
